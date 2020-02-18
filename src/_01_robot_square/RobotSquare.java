@@ -23,10 +23,12 @@ metalica.setSpeed(30);
 
 
         //         2. Move your robot 200 pixels
+
 metalica.move(200);
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
 
+metalica.penDown();
 metalica.turn(90);
 metalica.move(200);
 metalica.turn(90);  
@@ -38,19 +40,22 @@ metalica.turn(90);
 metalica.move(200);
 metalica.turn(90);
 metalica.move(200);
-metalica.turn(90);
-metalica.move(200);
-metalica.turn(90);
-metalica.move(200);
-metalica.turn(200);
-metalica.move(200);
-metalica.turn(260);
-metalica.move(75);
-metalica.turn(180);
-metalica.move(75);
-metalica.turn(242);
-metalica.move(250);
-
+metalica.turn(45);
+metalica.move(282);
+metalica.penUp();
+metalica.turn(225);
+metalica.move(199);
+metalica.penDown();
+metalica.turn(225);
+metalica.move(280);
+metalica.turn(450);
+metalica.move(280);
+metalica.turn(496);
+metalica.penUp();
+metalica.move(190);
+metalica.penDown();
+metalica.turn(479);
+metalica.move(289);
 
 
 
